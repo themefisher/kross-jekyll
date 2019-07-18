@@ -1,0 +1,24 @@
+{% if site.data.settings.team %}
+<!-- team -->
+<section class="section bg-cover" data-background="{{ site.baseurl }}/assets/images/backgrounds/team-bg.png">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">My Team</h2>
+      </div>
+      {% for team-member in site.data.settings.team %}
+      <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+        <div class="card text-center">
+          <img src="{{ site.baseurl }}/{{ team-member.image }}" class="card-img-top">
+          <div class="card-body">
+            <h4 class="card-title">{{ team-member.title }}</h4>
+            <p class="text-light font-secondary">{{ team-member.designation }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- /team -->
+{% endif %}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+
+  {% if site.google-analytics %}
+    {% include google-analytics.html %}
+  {% endif %}
+  
+  {% include header.html %}
+
+  {{ content }}
+
+  {% include contact-section.html %}
+  
+  {% include footer.html %}
+
+  <!-- jQuery -->
+  <script src="{{ site.baseurl }}/assets/plugins/jQuery/jquery.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="{{ site.baseurl }}/assets/plugins/bootstrap/bootstrap.min.js"></script>
+  <!-- slick slider -->
+  <script src="{{ site.baseurl }}/assets/plugins/slick/slick.min.js"></script>
+  <!-- filter -->
+  <script src="{{ site.baseurl }}/assets/plugins/shuffle/shuffle.min.js"></script>
+
+  <!-- Main Script -->
+  <script src="{{ site.baseurl }}/assets/js/script.js"></script>
+</body>
+
+</html>

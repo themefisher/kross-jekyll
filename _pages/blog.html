@@ -1,0 +1,37 @@
+---
+layout: page
+title: Blogs
+---
+<!-- blog -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      {% for post in site.posts %}
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="{{ site.baseurl }}/assets/images/blog/{{ post.image }}" alt="{{ post.title }}">
+          <div class="card-body">
+            <h4 class="card-title"><a class="text-dark" href="{{ post.url | relative_url }}">{{ post.title | escape }}</h4>
+            <p class="cars-text">{{ post.content | strip_html | truncate: 127 }}</p>
+            <a href="{{ post.url | relative_url }}" class="btn btn-xs btn-primary">Read More</a>
+          </div>
+        </article>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- /blog -->
+
+<!-- clients -->
+<section class="section bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">My Clients</h2>
+      </div>
+    </div>
+    {% include client-slider.html %}
+  </div>
+</section>
+<!-- /clients -->

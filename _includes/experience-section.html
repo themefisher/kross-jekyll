@@ -1,0 +1,21 @@
+{% if site.data.settings.experience %}
+<!-- experience -->
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-around">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">{{ site.data.settings.experience-title }}</h2>
+      </div>
+      {% for experience in site.data.settings.experience %}
+      <div class="col-lg-3 col-md-4 text-center">
+        <img src="{{ site.baseurl }}/assets/images/experience/{{ experience.icon }}" alt="{{ site.data.settings.experience-title }} icon">
+        <p class="mb-0">{{ experience.date }}</p>
+        <h4>{{ experience.name }}</h4>
+        <h6 class="text-light">{{ experience.organization }}</h6>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- ./experience -->
+{% endif %}

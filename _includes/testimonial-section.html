@@ -1,0 +1,33 @@
+{% if site.data.settings.testimonial-items %}
+<!-- testimonial -->
+<section class="section bg-primary position-relative testimonial-bg-shapes">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title text-white mb-5">Testimonials</h2>
+      </div>
+      <div class="col-lg-10 mx-auto testimonial-slider">
+        {% for testimonial-item in site.data.settings.testimonial-items %}
+        <!-- slider-item -->
+        <div class="text-center testimonial-content">
+          <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
+          <p class="text-white mb-4">{{ testimonial-item.content   }}</p>
+          <img class="img-fluid rounded-circle mb-4 d-inline-block" src="{{ site.baseurl }}/{{ testimonial-item.image }}"
+            alt="{{ testimonial-item.name }}">
+          <h4 class="text-white">{{ testimonial-item.name }}</h4>
+          <h6 class="text-light mb-4">{{ testimonial-item.designation }}</h6>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <!-- bg shapes -->
+  <img src="{{ site.baseurl }}/assets/images/backgrounds/map.png" alt="map" class="img-fluid bg-map">
+  <img src="{{ site.baseurl }}/assets/images/illustrations/dots-group-v.png" alt="bg-shape" class="img-fluid bg-shape-1">
+  <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-orange.png" alt="bg-shape" class="img-fluid bg-shape-2">
+  <img src="{{ site.baseurl }}/assets/images/illustrations/dots-group-sm.png" alt="bg-shape" class="img-fluid bg-shape-3">
+  <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-pink-round.png" alt="bg-shape" class="img-fluid bg-shape-4">
+  <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-cyan.png" alt="bg-shape" class="img-fluid bg-shape-5">
+</section>
+<!-- /testimonial -->
+{% endif %}
