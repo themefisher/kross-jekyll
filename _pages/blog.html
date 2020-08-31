@@ -7,16 +7,7 @@ title: Blogs
   <div class="container">
     <div class="row">
       {% for post in site.posts %}
-      <div class="col-lg-4 col-sm-6 mb-4">
-        <article class="card shadow">
-          <img class="rounded card-img-top" src="{{ site.baseurl }}/assets/images/blog/{{ post.image }}" alt="{{ post.title }}">
-          <div class="card-body">
-            <h4 class="card-title"><a class="text-dark" href="{{ post.url | relative_url }}">{{ post.title | escape }}</h4>
-            <p class="cars-text">{{ post.content | strip_html | truncate: 127 }}</p>
-            <a href="{{ post.url | relative_url }}" class="btn btn-xs btn-primary">Read More</a>
-          </div>
-        </article>
-      </div>
+      {% include post.html %}
       {% endfor %}
     </div>
   </div>
