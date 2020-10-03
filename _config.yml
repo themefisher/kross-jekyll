@@ -25,4 +25,6 @@ sass:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - vendor
+  - LICENSE.text
+  - README.md
+  - SECURITY.md
