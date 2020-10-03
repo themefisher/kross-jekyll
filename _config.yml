@@ -6,6 +6,10 @@ markdown: kramdown
 permalink: pretty
 plugins:
   - jekyll-sitemap
+compress_html:
+  clippings: all
+  comments: all
+  startings: [html, head, body]
 
 # Pages Path
 defaults:
