@@ -8,7 +8,7 @@ description: Eunjin's Portfolio
 email: jayjinnie@hanyang.ac.kr
 phone: Contact Me On IG @jayjinnie.227
 address: Gyeonggi, Republic of Korea
-copyright: Copyright &copy; 2022 Designed and Developed by [Eunjin Jung](jayjinnie.github.io)
+copyright: Copyright &copy; 2022 Designed and Developed by [Eunjin Jung](https://github.com/jayjinnie)
 
 menu:
 - {name: About, link: '/about'}
@@ -51,7 +51,7 @@ social:
 
 # About Section
 blurb:
-  Understand the world through "Data Analysis" <br> Create a new path through "Communication" 
+  Understand the world through "Data Analysis" <br> Create a new way through "Communication" 
 blurb-btn-link: '/about'
 blurb-btn-name: More Information About Me
 
@@ -222,7 +222,7 @@ portfolio-home-items:
     
   - image : "assets/images/portfolio/펌프킨.jpg"
     url: "https://bigdata-region.kr/#/dataset?category=%EC%B9%9C%ED%99%98%EA%B2%BD%EC%B6%A9%EC%A0%84%EC%9D%B8%ED%94%84%EB%9D%BC&datecolumn=created&page=1"
-    project_name: "전기차 기업 펌프킨 <br> 비즈니스 데이터 배포 사업 참여 <br> 전기버스 배차 데이터 정제"
+    project_name: "전기차 기업 펌프킨 <br> 비즈니스 데이터 배포 사업 참여 <br> '전기버스 배차 데이터' 정제"
 
   - image : "assets/images/portfolio/경상북도공모전.jpg"
     url: "https://github.com/jayjinnie/gbdcon"
