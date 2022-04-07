@@ -167,7 +167,7 @@ services:
 - {
     name: 정보사회미디어학과 학술제 CONNECTION <br> 프로젝트 2팀 팀장,
     icon: ti-book,
-    description: '✔ O.T.T. (Over The Top) 팀장: "데이터 분석을 통한 OTT 서비스의 지속가능성 탐색"을 주제로 데이터 분석 및 학술 연구 진행 및 발표 <br> 툴스터디: 파이썬 데이터 분석 및 기초 통계 툴 스터디 진행',
+    description: '✔ O.T.T. (Over The Top) 팀장: "데이터 분석을 통한 OTT 서비스의 지속가능성 탐색"을 주제로 데이터 분석 및 학술 연구 진행 및 발표 <br> ✔ 툴스터디: 파이썬 데이터 분석 및 기초 통계 툴 스터디 진행',
     active: true # Add true to select section
   }
 - {
