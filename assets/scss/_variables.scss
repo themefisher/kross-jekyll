@@ -1,6 +1,8 @@
 // Color Variables
-$primary-color: #41228e;
-$secondary-color: #2bfdff;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600&display=swap');
+
+$primary-color: #e07687;
+$secondary-color: #ade2ff;
 $text-color: #4c4c4c;
 $text-color-dark: #000;
 $text-color-light: #999;
@@ -12,5 +14,5 @@ $gray: #eaeaea;
 
 // Font Variables
 $primary-font: 'Roboto', sans-serif;
-$secondary-font: 'Playfair Display', serif;
+$secondary-font: 'Noto Serif KR', serif;
 $icon-font: 'themify';

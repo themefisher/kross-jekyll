@@ -1,18 +1,17 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
+title: Eunjin's Archive
 logo: 
-author: themefisher
-description: this is meta description
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
-copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+author: jayjinnie
+description: Eunjin's Portfolio
+email: jayjinnie@hanyang.ac.kr
+phone: Contact Me On IG @jayjinnie.227
+address: Gyeonggi, Republic of Korea
+copyright: Copyright &copy; 2022 Designed and Developed by [Eunjin Jung](jayjinnie.github.io)
 
 menu:
 - {name: About, link: '/about'}
-- {name: Blog, link: '/blog'}
 - {name: Portfolio, link: '/portfolio'}
 - {name: Contact, link: '/contact'}
 
@@ -38,13 +37,13 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Welcome to <br> Eunjin's <br> Archieve!
 
 social:
-- {icon: "ti-facebook", link: "#"}
-- {icon: "ti-instagram", link: "#"}
-- {icon: "ti-dribbble", link: "#"}
-- {icon: "ti-twitter", link: "#"}
+- {icon: "ti-github", link: "https://github.com/jayjinnie"}
+- {icon: "ti-bar-chart", link: "https://public.tableau.com/app/profile/jung.eunjin#!/"}
+- {icon: "ti-instagram", link: "https://www.instagram.com/jayjinnie.227/"}
+- {icon: "ti-world", link: "https://blog.naver.com/eunvely227"}
 
 
 #-------------------------------
@@ -52,100 +51,155 @@ social:
 
 # About Section
 blurb:
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
+  Understand the world through "Data Analysis" <br> Create a new path through "Communication" 
 blurb-btn-link: '/about'
-blurb-btn-name: know more
+blurb-btn-name: More Information About Me
 
 
 # About Page
 
 # Work Process Section
 work-process:
-  - title : "Research and Plan"
-    icon : "assets/images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title : "Preprocessing"
+    icon : "assets/images/work-process/alteryx.png"
+    content : "Tableau Prep, Alteryx, Excel을 이용해 데이터프레임을 적절한 형태로 정제하고, SQL로 데이터베이스를 관리합니다."
     
-  - title : "Design and Develop"
-    icon : "assets/images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title : "Anayitics"
+    icon : "assets/images/work-process/coding.png"
+    content : "Python과 R의 데이터 분석 및 시각화 라이브러리를 활용하여 데이터 분석을 진행합니다."
     
-  - title : "Deliver"
-    icon : "assets/images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title : "Visualization & Communication"
+    icon : "assets/images/work-process/viz.png"
+    content : "Tableau를 이용해 효과적인 시각화를 구현해냅니다. <br> 완성된 시각화를 토대로 얻은 인사이트를 설득력 있게 표현하고, 활발하게 커뮤니케이션합니다."
 
-
-# My Team Section
+# Organization Section
 team:
-  - title : "Jack Schenziwe"
-    image : "assets/images/team/member-1.png"
-    designation : "Project Manager"
+  - title : "DAYS"
+    image : "assets/images/team/DAYS.png"
+    designation : "정보사회미디어학과 <br> 데이터 사이언스 학회"
     
-  - title : "Julias Carlie"
-    image : "assets/images/team/member-2.png"
-    designation : "Web Developer"
+  - title : "창의성과 인터랙션 연구소"
+    image : "assets/images/team/C_and_I_lab.png"
+    designation : "한양대학교 ERICA <br> 언론정보대학"
     
-  - title : "John Doe"
-    image : "assets/images/team/member-3.png"
-    designation : "Designer"
+  - title : "TAVE"
+    image : "assets/images/team/tave-wave.png"
+    designation : "4차 산업혁명 연합 동아리"
 
 
 #-------------------------------
 # Skills Section
 
-skills-title: Skills
+skills-title: Data Skills
 skills:
-- {name: Web Design, color: '#fdb157', value: '90%'}
-- {name: Logo Design, color: '#9473e6', value: '60%'}
-- {name: After Effects, color: '#bdecf6', value: '80%'}
-- {name: Web App, color: '#ffbcaa', value: '70%'}
+- {name: Preprocessing, color: '#fdb157', value: '80%'}
+- {name: Analysis, color: '#9473e6', value: '70%'}
+- {name: Visualization, color: '#bdecf6', value: '90%'}
+- {name: Communication, color: '#ffbcaa', value: '98%'}
 
 
 #-------------------------------
-# Exprerience Section
+# Status Section
 
-experience-title: Experience
+experience-title: Status
 experience:
-- {name: Junior UX Designer, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
-- {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
-- {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
+- {name: 데이터 사이언스 학회 DAYS 학회장, icon: 'icon-1.png', date: 'Jan 2022 ~', organization: 'Hanyang ERICA'}
+- {name: 학술연구단체 TAVE Research, icon: 'icon-2.png', date: 'Aug 2021 ~', organization: 'TAVE'}
+- {name: 창의성과 인터랙션 연구소 서포터즈, icon: 'icon-3.png', date: 'Mar 2021 ~', organization: 'Hanyang ERICA'}
 
 
 #-------------------------------
-# Education Section
+# History Section
 
-education-title: Education
+education-title: History
 education:
-- {name: Marters in UX Design, date: '2006', organization: 'Masassusets Institute of Technology'}
-- {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
-- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
-- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
+- {name: 한양대학교 ERICA <br> 정보사회미디어학과 입학, date: '2020 ~', organization: '언론정보대학'}
+- {name: 한양대학교 ERICA <br> 소프트웨어전공 다중전공, date: '2021 ~', organization: '소프트웨어융합대학 소프트웨어학부'}
+- {name: 데이터 사이언스 학회 DAYS 활동, date: '2020 ~', organization: '언론정보대학 정보사회미디어학과'}
+- {name: 알고리즘 학회 0&1 활동, date: '2020', organization: '소프트웨어융합대학'}
+- {name: 4차산업혁명 연합동아리 TAVE 활동, date: '2021', organization: 'TAVE-WAVE'}
+- {name: TAVE 심층 학술 연구단체 <br> TAVE Research 활동, date: '2021 ~', organization: 'TAVE-WAVE'}
+- {name: 정보사회미디어학과 학술제 CONNECTION 프로젝트 2팀 팀장, date: '2021', organization: '언론정보대학 정보사회미디어학과'}
+- {name: 언론정보대학 창의성과 인터랙션 연구소 서포터즈, date: '2021 ~', organization: '언론정보대학'}
 
 
 #-------------------------------
-# Services Section
+# Activity Section
 
-services-title: Services
+services-title: Activity
 services:
 - {
-    name: UI Design,
-    icon: ti-palette,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: # Add true to select section
-  }
-- {
-    name: UX Design,
-    icon: ti-vector,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    name: DAYS 학회원 (2020),
+    icon: ti-heart,
+    description: '✔ 스터디: 신입생 대상 Python 기초 스터디 참여 <br> ✔ 개인 프로젝트: "서울시 인구수와 CCTV 수 간의 상관관계 분석"을 주제로 데이터 분석 개인 프로젝트 진행 및 발표',
     active: true # Add true to select section
   }
 - {
-    name: Interaction Design,
-    icon: ti-panel,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: # Add true to select section
+    name: DAYS 운영진 (2021),
+    icon: ti-heart,
+    description: '✔ 운영진 활동 (홍보부장): DAYS 인스타그램 관리, Python 기초 강의 튜터 <br> ✔ 방중활동: ADsP 스터디, 웹 스크래핑 툴 스터디 진행, Google Analytics 스터디, 공공데이터 활용 공모전 참여',
+    active: ,# # Add true to select section
   }
-
+- {
+    name: DAYS 학회장 (2022),
+    icon: ti-heart,
+    description: '✔ 학회장 활동: DAYS 홈페이지 관리, 학회 활동 전반 기획 및 총괄 <br> ✔ 스터디: 파이썬 문법 및 데이터분석 스터디 1팀 팀장',
+    active: true # Add true to select section
+  }
+- {
+    name: TAVE 7기 멤버,
+    icon: ti-flag-alt,
+    description: '✔ 전반기 활동: 머신러닝 기초 스터디 <br> ✔ 후반기 활동: 파이썬 알고리즘 스터디 <br> ✔ 수상: 전반기 스터디 우수상 수상, 전반기&후반기 MVP상 수상 <br> ✔ TAVE Research: TAVE 소속 심층 학술 연구단체, 데이터 분석팀 소속, "코로나19 속 제주도 관광 트렌드" 분석 진행',
+    active: ,# # Add true to select section
+  }
+- {
+    name: 창의성과 인터랙션 연구소 <br> 서포터즈,
+    icon: ti-light-bulb,
+    description: '✔ 2021-1: 태블로 기초 스터디 참여, "OTT서비스 & AI알고리즘"을 주제로 태블로 데이터 시각화 프로젝트 진행 <br> ✔ 2021-여름학기: VizLab 멘토 주도 하에 "COVID-19"를 주제로 태블로 시각화 프로젝트 진행',
+    active: true # Add true to select section
+  }
+- {
+    name: 창의성과 인터랙션 연구소 활동,
+    icon: ti-light-bulb,
+    description: '✔ 2021-겨울학기: "고용노동통계" 데이터 분석 프로젝트 진행, 용인시청 및 기업 연계 과업 수행 <br> ✔ 2022-1: VizLab과 "2022 대선 결과 분석" 시각화 프로젝트 진행',
+    active: ,# # Add true to select section
+  }
+- {
+    name: 정보사회미디어학과 학술제 CONNECTION <br> 프로젝트 2팀 팀장,
+    icon: ti-book,
+    description: '✔ O.T.T. (Over The Top) 팀장: "데이터 분석을 통한 OTT 서비스의 지속가능성 탐색"을 주제로 데이터 분석 및 학술 연구 진행 및 발표 <br> 툴스터디: 파이썬 데이터 분석 및 기초 통계 툴 스터디 진행',
+    active: true # Add true to select section
+  }
+- {
+    name: 한양대학교 교내 프로그램,
+    icon: ti-crown,
+    description: '✔ 2020-2: 한양 또래 튜터링 프로그램 Python 튜터링 팀 Anaconda 팀원, 최우수상 수상 <br> ✔ 2021-2: IC-PBL 수강후기 공모전 카드뉴스 부문 출전, "데이터베이스" 과목 수강후기 카드뉴스 제작, 최우수상 수상',
+    active: ,# # Add true to select section
+  }
+- {
+    name: 교외 공모전,
+    icon: ti-cup,
+    description: '✔ 공공데이터 공모전: 경상북도 데이터 경진대회 참여, 팀 마,이구미! 결선 진출, <br> 영화 빅데이터 구축·활용 과제 발굴을 위한 아이디어 공모전 참여 <br> ✔ AI 해커톤 플랫폼 DACON: "구직자를 위한 기업 트렌드 시각화 경진대회" 출전',
+    active: true # Add true to select section
+  }
+- {
+    name: 0&1 학회원,
+    icon: ti-target,
+    description: '✔ 2020: C언어 기초반, C언어 클리닉, 자료구조반 스터디 참여',
+    active: ,# # Add true to select section
+  }
+- {
+    name: 데이터 업무,
+    icon: ti-briefcase,
+    description: '✔ 전기차 기업 펌프킨: 전기버스 배차 데이터 엑셀 정제, 경기지역경제포털에 데이터 수록 ',
+    active: true # Add true to select section
+  }
+- {
+    name: 스터디 진행,
+    icon: ti-pencil-alt2,
+    description: '✔ 코딩테스트 대비 백준 파이썬 알고리즘 스터디 참여 <br> ✔ 캐글, 데이콘을 활용한 데이터분석 스터디 주도',
+    active: ,# Add true to select section
+  }
 
 
 #-------------------------------
@@ -153,144 +207,328 @@ services:
 
 # Portfolio Home Section
 portfolio-home-items:
-  - image : "assets/images/portfolio/item-1.png"
-    url: "#"
+
+  - image : "assets/images/portfolio/데이콘구직자.jpg"
+    url: "https://dacon.io/competitions/official/235866/codeshare/4275"
+    project_name: "데이콘 '구직자를 위한 기업 트렌드 시각화 경진대회' 출전"
+
+  - image : "assets/images/portfolio/졸업통계.jpg"
+    url: "https://mi.hanyang.ac.kr/sub01/sub03.php#none"
+    project_name: "정보사회미디어학과 <br> '졸업 후 진로 통계 대시보드' 제작 <br> 학과 홈페이지 게시"
+  
+  - image : "assets/images/portfolio/대선시각화.jpg"
+    url: "https://public.tableau.com/app/profile/jung.eunjin/viz/2022PresidentialElection/Dashboard"
+    project_name: "'2022 대한민국 제20대 대선 톺아보기' <br> 태블로 시각화 프로젝트"
     
-  - image : "assets/images/portfolio/item-2.png"
-    url: "#"
-    
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    
-  - image : "assets/images/portfolio/item-4.png"
-    url: "#"
-    
-  - image : "assets/images/portfolio/item-5.png"
-    url: "#"
+  - image : "assets/images/portfolio/펌프킨.jpg"
+    url: "https://bigdata-region.kr/#/dataset?category=%EC%B9%9C%ED%99%98%EA%B2%BD%EC%B6%A9%EC%A0%84%EC%9D%B8%ED%94%84%EB%9D%BC&datecolumn=created&page=1"
+    project_name: "전기차 기업 펌프킨 <br> 비즈니스 데이터 배포 사업 참여 <br> 전기버스 배차 데이터 정제"
+
+  - image : "assets/images/portfolio/경상북도공모전.jpg"
+    url: "https://github.com/jayjinnie/gbdcon"
+    project_name: "DAYS 방중 활동 <br> 경상북도 데이터 경진대회 참여 <br> 결선 진출"
+
+  - image : "assets/images/portfolio/캐글스터디.jpg"
+    url: "https://frosted-passbook-601.notion.site/00f1f53ee1e8470387e4f90710e8be4a"
+    project_name: "Kaggle & DACON을 활용한 <br> 데이터 분석 스터디 진행"
 
 
 # Portfolio Page
 portfolio-label:
-- {
-    title : "UI/UX Design",
-    type : "design"
-  }
-- {
-    title : "BRANDING",
-    type : "branding"
-  }
-- {
-    title : "ILLUSTRATION",
-    type : "illustration"
-  }
+- { title : "2022", type : "2022" }
+- { title : "2021", type : "2021" }
+- { title : "2020", type : "2020" }
 
 portfolio-items:
-  - image : "assets/images/portfolio/item-1.png"
-    url: "#"
+
+  - image : "assets/images/portfolio/데이즈홈페이지.jpg"
+    url: "https://days-hanyang-erica.netlify.app/"
+    project_name: "DAYS 학회장 활동 <br> DAYS 홈페이지 업데이트"
     portfolio-type:
-     - type: "design"
-     - type: "illustration"
-      
-  - image : "assets/images/portfolio/item-2.png"
-    url: "#"
+      - type: "2022"
+     
+  - image : "assets/images/portfolio/데이콘구직자.jpg"
+    url: "https://dacon.io/competitions/official/235866/codeshare/4275"
+    project_name: "데이콘 '구직자를 위한 기업 트렌드 시각화 경진대회' 출전"
     portfolio-type:
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
+      - type: "2022"
+
+  - image : "assets/images/portfolio/캐글스터디.jpg"
+    url: "https://frosted-passbook-601.notion.site/00f1f53ee1e8470387e4f90710e8be4a"
+    project_name: "Kaggle & DACON을 활용한 <br> 데이터 분석 스터디 진행"
     portfolio-type:
-      - type: "illustration"
-      
-  - image : "assets/images/portfolio/item-6.png"
-    url: "#"
+      - type: "2022"
+     
+  - image : "assets/images/portfolio/파이썬스터디.jpg"
+    url: "https://gist.github.com/jayjinnie"
+    project_name: "파이썬 알고리즘 코딩테스트 스터디 참여"
     portfolio-type:
-      - type: "design"
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-8.png"
+      - type: "2022"
+
+  - image : "assets/images/portfolio/데이즈EDA.jpg"
     url: "#"
+    project_name: "DAYS 전반기 활동 <br> 파이썬 문법 복습 및 EDA 진행"
     portfolio-type:
-      - type: "illustration"
-      
-  - image : "assets/images/portfolio/item-5.png"
-    url: "#"
+      - type: "2022"
+    
+  - image : "assets/images/portfolio/졸업통계.jpg"
+    url: "https://mi.hanyang.ac.kr/sub01/sub03.php#none"
+    project_name: "정보사회미디어학과 <br> '졸업 후 진로 통계 대시보드' 제작 <br> 학과 홈페이지 게시"
     portfolio-type:
-      - type: "design"
-      
-  - image : "assets/images/portfolio/item-1.png"
-    url: "#"
+      - type: "2022"
+  
+  - image : "assets/images/portfolio/대선시각화.jpg"
+    url: "https://public.tableau.com/app/profile/jung.eunjin/viz/2022PresidentialElection/Dashboard"
+    project_name: "'2022 대한민국 제20대 대선 톺아보기' <br> 태블로 시각화 프로젝트"
     portfolio-type:
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "illustration"
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-7.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
+      - type: "2022"
 
 
+  - image : "assets/images/portfolio/태블로기초스터디.jpg"
+    url: "https://public.tableau.com/app/profile/jung.eunjin/viz/WeeklyExercise2ProfitDevelopmentfor4Years_16166914782590/WeeklyExercise2ProfitDevelopmentfor4Years"
+    project_name: "창의성과 인터랙션 연구소 서포터즈 활동 <br> 태블로 기초 스터디 참여"
+    portfolio-type:
+      - type: "2021"
+      
+  - image : "assets/images/portfolio/오티티.jpg"
+    url: "https://public.tableau.com/app/profile/jung.eunjin/viz/OTTAI/OTTAI"
+    project_name: "'OTT 서비스와 AI 알고리즘' <br> 태블로 시각화 프로젝트 [KOR]"
+    portfolio-type:
+      - type: "2021"
+      
+  - image : "assets/images/portfolio/ott.jpg"
+    url: "https://public.tableau.com/app/profile/jung.eunjin/viz/OTTServiceUsagePatternandAIAlgorithmTechnology/OTTServiceUsagePatternandAIAlgorithmTechnology"
+    project_name: "'OTT 서비스와 AI 알고리즘' <br> 태블로 시각화 프로젝트 [ENG]"
+    portfolio-type:
+      - type: "2021"
+      
+  - image : "assets/images/portfolio/covid.jpg"
+    url: "https://public.tableau.com/app/profile/jung.eunjin/viz/Pandemic-StatusVaccinationandQualititiveResearch/Pandemic-StautsVaccinationandQualititiveResearch"
+    project_name: "'COVID 19 in South Korea' <br> 태블로 시각화 프로젝트"
+    portfolio-type: 
+      - type: "2021"
+      
+  - image : "assets/images/portfolio/머신러닝스터디.jpg"
+    url: "https://github.com/jayjinnie/TAVE7th_MachineLearningStudy"
+    project_name: "TAVE 7기 전반기 <br> 머신러닝 기초 스터디 참여<br> 우수상, MVP상 수상"
+    portfolio-type:
+      - type: "2021"
+
+  - image : "assets/images/portfolio/테이브파이썬스터디.jpg"
+    url: "https://github.com/TAVE-7-python-algorithm-study"
+    project_name: "TAVE 7기 후반기 <br> 파이썬 알고리즘 스터디 진행<br> MVP상 수상"
+    portfolio-type:
+      - type: "2021"
+
+  - image : "assets/images/portfolio/데이즈인스타.jpg"
+    url: "https://www.instagram.com/_hy_days/"
+    project_name: "DAYS 홍보부장 활동 <br> DAYS 인스타그램 관리"
+    portfolio-type:
+      - type: "2021"
+     
+  - image : "assets/images/portfolio/데이즈파이썬강의.jpg"
+    url: "https://github.com/jayjinnie/DAYS_Python_Study/blob/main/README.md"
+    project_name: "DAYS 운영진 활동 <br> Python 기초 강의 튜터"
+    portfolio-type:
+      - type: "2021"
+
+  - image : "assets/images/portfolio/제주관광분석.jpg"
+    url: "https://public.tableau.com/app/profile/jung.eunjin/viz/JejuTourismTrendintheCOVID19Pandemic/19"
+    project_name: "TAVE Research 데이터 분석팀 활동 <br> '코로나19 속 제주도 관광 트렌드 분석'"
+    portfolio-type:
+      - type: "2021"
+     
+  - image : "assets/images/portfolio/펌프킨.jpg"
+    url: "https://bigdata-region.kr/#/dataset?category=%EC%B9%9C%ED%99%98%EA%B2%BD%EC%B6%A9%EC%A0%84%EC%9D%B8%ED%94%84%EB%9D%BC&datecolumn=created&page=1"
+    project_name: "전기차 기업 펌프킨 <br> 비즈니스 데이터 배포 사업 참여 <br> 전기버스 배차 데이터 정제"
+    portfolio-type:
+      - type: "2021"
+
+  - image : "assets/images/portfolio/경상북도공모전.jpg"
+    url: "https://github.com/jayjinnie/gbdcon"
+    project_name: "DAYS 방중 활동 <br> 경상북도 데이터 경진대회 참여 <br> 결선 진출"
+    portfolio-type:
+      - type: "2021"
+
+  - image : "assets/images/portfolio/커넥션툴스터디.jpg"
+    url: "https://www.instagram.com/_hy_days/"
+    project_name: "2021 커넥션 학술제 <br> 파이썬 데이터 분석 및 기초 통계 툴스터디 멘토"
+    portfolio-type:
+      - type: "2021"
+
+  - image : "assets/images/portfolio/웹스크래핑스터디.jpg"
+    url: "https://youtu.be/h5iMyrcT7ho"
+    project_name: "DAYS + 학술제 커넥션 <br> 셀레니움 웹 스크래핑 툴 스터디 진행"
+    portfolio-type:
+      - type: "2021"
+
+  - image : "assets/images/portfolio/커넥션발표.jpg"
+    url: "https://www.youtube.com/watch?v=RRvyVsyt1Ro"
+    project_name: "2021 커넥션 학술제 <br> '데이터 분석을 통한 OTT서비스의 지속가능성 탐색'"
+    portfolio-type:
+      - type: "2021"
+
+  - image : "assets/images/portfolio/데베수강후기.jpg"
+    url: "https://www.instagram.com/p/CY3JLmtPqn9/?utm_source=ig_web_copy_link"
+    project_name: "IC-PBL 수강후기 공모전 <br> '데이터베이스' 과목 카드뉴스 제작 <br> 최우수상 수상"
+    portfolio-type:
+      - type: "2021"
+     
+  - image : "assets/images/portfolio/ceocinema.jpg"
+    url: "https://github.com/CEO-sprout"
+    project_name: "데이터베이스 팀프로젝트 <br> 'CEO CINEMA' 영화 통합 정보 시스템 개발 <br> 프론트엔드 참여"
+    portfolio-type:
+      - type: "2021"
+
+  - image : "assets/images/portfolio/창인연구소 기업프로젝트.jpg"
+    url: "#"
+    project_name: "창의성과 인터랙션 연구소 활동 <br> '용인시청・아모레퍼시픽・한국교통연구원' <br> 기업연계 데이터 과업 수행"
+    portfolio-type:
+      - type: "2021"
+
+  - image : "assets/images/portfolio/미제실팀플.jpg"
+    url: "https://public.tableau.com/app/profile/jung.eunjin/viz/_16390355526800/sheet0"
+    project_name: "미디어제작실습2 팀 프로젝트 <br> '경기지역화폐 이용현황 분석' <<br> 태블로 데이터 시각화 프로젝트"
+    portfolio-type:
+      - type: "2021"
+
+
+  - image : "assets/images/portfolio/C언어스터디-001.png"
+    url: "https://gist.github.com/jayjinnie?direction=asc&sort=created"
+    project_name: "알고리즘 학회 영과일 (0&1) <br> C언어 기초반, C언어 클리닉, 자료구조반 스터디 참여"
+    portfolio-type:
+      - type: "2020"
+
+  - image : "assets/images/portfolio/튜터링 수상.jpg"
+    url: "https://blog.naver.com/eunvely227/222253818247"
+    project_name: "한양 또래 튜터링 프로그램 Python 튜터링 Anaconda팀 최우수상 수상"
+    portfolio-type:
+      - type: "2020"
+      
+  - image : "assets/images/portfolio/데이즈첫프로젝트-001.png"
+    url: "https://github.com/jayjinnie/DAYS_1stProject"
+    project_name: "DAYS <br> '서울시 인구수와 CCTV 수 간의 <br> 상관관계 분석' 개인 프로젝트"
+    portfolio-type:
+      - type: "2020"
+      
+  - image : "assets/images/portfolio/글로벌이슈-001.png"
+    url: "https://blog.naver.com/PostList.naver?blogId=eunvely227&from=postList&categoryNo=62"
+    project_name: "Global Issue <br> Article Analysis and Write Columns"
+    portfolio-type:
+      - type: "2020"
+      
 #-------------------------------
-# Testimonials Section
+# Organization Section
 
 testimonial-items:
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation : "CEO, Funder"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - name: "Eunjin Jung"
+    image: "assets/images/testimonial/은진.jpg"
+    designation:
+    content : "아나운서와 기자를 꿈꾸며 <strong>한양대학교 에리카캠퍼스</strong>에 입학한 저는 <br> 이제 <strong>데이터로 세상을 이해하고, 세상과 소통하는</strong> 만능 데이터 분석가로 자라나고자 합니다. <br> 저를 성장하게 만들어준, 제가 소속된 단체들을 소개합니다."
     
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - name: "Media & Social Informatics"
+    image: "assets/images/testimonial/정보사회미디어.jpg"
+    designation:
+    content: "저의 제1전공은 한양대학교 에리카캠퍼스 언론정보대학 소속의 <strong>정보사회미디어학과</strong>입니다. <br> 커뮤니케이션과 미디어 현상에 대한 이론적 및 경험적 지식을 토대로, 지능정보사회 인재의 필수 덕목인 데이터 사이언스를 무기로 삼아, 다양한 커뮤니케이션의 사회적 실천을 선도합니다."
     
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - name: "Software"
+    image: "assets/images/testimonial/소프트웨어.jpg"
+    designation:
+    content: "저의 제2전공은 한양대학교 에리카캠퍼스 소프트웨어융합대학 소프트웨어학부의 <strong>소프트웨어전공</strong>입니다. <br> 데이터 사이언스 트랙에서는 데이터를 과학적으로 분석하여 새로운 가치를 창출 할 수 있는 인재를 양성하며, 데이터 사이언스에 특화된 교육 프로그램을 제공합니다."
+
+  - name: "DAYS"
+    image: "assets/images/testimonial/DAYS_로고.png"
+    designation:
+    content: "<strong>DAYS (Data Analysis Society)</strong>는 정보사회미디어학과의 유일무이 데이터 사이언스 학회입니다. <br> 데이즈에서는 데이터 정제 및 시각화부터 스토리텔링까지 데이터 분석의 전 과정을 다루면서, <br> 날카로운 통찰력으로 사회를 바라보는 데이터 저널리즘 역량을 강화할 수 있도록 합니다."
+
+  - name: "TAVE & TAVE Research"
+    image: "assets/images/testimonial/tave.jpg"
+    designation:
+    content: "<strong>TAVE (Technology WAVE)</strong>는 2018년도 초에 창설된 국내 최초 4차 산업혁명 동아리입니다. <br> 모든 4차 산업혁명 영역을 아우르며, 다양한 스터디 및 프로젝트를 진행하고, 컨퍼런스를 개최하며 4차 산업혁명 기술의 물결을 선도하고 있습니다."
+
+  - name: "Creativity & Interaction Lab"
+    image: "assets/images/testimonial/창인연구소.jpg"
+    designation:
+    content: "<strong>창의성과 인터랙션 연구소</strong>는 한양대학교 에리카캠퍼스 언론정보대학 소속의 연구소입니다. 인간과 미디어가 상호작용하는 현상에 대해 다양한 학제간 접근을 통해 연구합니다."
+
+  - name: "0 & 1"
+    image: "assets/images/testimonial/0과1.jpg"
+    designation:
+    content: "<strong> 영과 일(0&1)</strong>은 한양대학교 에리카캠퍼스 소프트웨어융합대학 소속의 알고리즘 연구 학회입니다. 프로그래밍 스터디 운영과 함께 주기적인 코딩 캠프를 개최하며, 교내 프로그래밍 경시대회 및 전국 대학생 프로그래밍 동아리 연합 활동을 진행합니다."
 
 
 #-------------------------------
-# Client Slider Section
+# Skill Stack Slider Section 
 
 client-slider-items:
-  - logo: "assets/images/clients-logo/client-logo-1.png"
+  - logo: "https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white"
     url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-2.png"
+
+  - logo: "https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"
     url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-3.png"
+
+  - logo: "https://img.shields.io/badge/Python-0769AD?style=for-the-badge&logo=Python&logoColor=white"
     url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-4.png"
+
+  - logo: "https://img.shields.io/badge/R-1572B6?style=for-the-badge&logo=R&logoColor=white"
     url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-5.png"
+
+  - logo: "https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=black"
     url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-1.png"
+
+  - logo: "https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=white"
     url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-2.png"
+
+  - logo: "https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white"
     url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-3.png"
+
+  - logo: "https://img.shields.io/badge/Pandas-94B4A4?style=for-the-badge&logo=pandas&logoColor=white"
     url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-4.png"
+
+  - logo: "https://img.shields.io/badge/Sklearn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"
     url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-5.png"
+
+  - logo: "https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white"
+    url: "#"
+
+  - logo: "https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white"
+    url: "#"
+
+  - logo: "https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=Anaconda&logoColor=white"
+    url: "#"
+
+  - logo: "https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=white"
+    url: "#"
+
+  - logo: "https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"
+    url: "#"
+  
+  - logo: "https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"
+    url: "#"  
+
+  - logo: "https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white"
+    url: "#"
+
+  - logo: "https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"
+    url: "#"
+
+  - logo: "https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"
+    url: "#"
+
+  - logo: "https://img.shields.io/badge/C-AAAAAA?style=for-the-badge&logo=C&logoColor=white"
+    url: "#"
+
+  - logo: "https://img.shields.io/badge/C++-495464?style=for-the-badge&logo=C%2B%2B&logoColor=white"
+    url: "#"
+
+  - logo: "https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
+    url: "#"
+
+  - logo: "https://img.shields.io/badge/Google%20Analytics-E37400?style=for-the-badge&logo=Google%20Analytics&logoColor=white"
     url: "#"
 
 #-------------------------------
 # Contact Section
 
 contact-title: Contact Info
-contact-email: steve.fruits@email.com
+contact-email: jayjinnie@hanyang.ac.kr
