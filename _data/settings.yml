@@ -37,7 +37,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Welcome to <br> Eunjin's <br> Archieve!
+  hero-title: Welcome to <br> Eunjin's <br> Archive!
 
 social:
 - {icon: "ti-github", link: "https://github.com/jayjinnie"}
