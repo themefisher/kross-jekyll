@@ -62,15 +62,15 @@ blurb-btn-name: More Information About Me
 work-process:
   - title : "Preprocessing"
     icon : "assets/images/work-process/alteryx.png"
-    content : "Tableau Prep, Alteryx, Excel을 이용해 데이터프레임을 적절한 형태로 정제하고, SQL로 데이터베이스를 관리합니다."
+    content : "Tableau Prep, Alteryx, <br> Excel을 이용해 <br> 데이터프레임을 정제하고, <br> SQL로 데이터베이스를 <br>관리합니다."
     
   - title : "Anayitics"
     icon : "assets/images/work-process/coding.png"
-    content : "Python과 R의 데이터 분석 및 시각화 라이브러리를 활용하여 데이터 분석을 진행합니다."
+    content : "Python과 R의 데이터 분석 및 시각화 라이브러리를 <br> 활용하여 데이터 분석을 <br> 진행합니다."
     
   - title : "Visualization & Communication"
     icon : "assets/images/work-process/viz.png"
-    content : "Tableau를 이용해 효과적인 시각화를 구현해냅니다. <br> 완성된 시각화를 토대로 얻은 인사이트를 설득력 있게 표현하고, 활발하게 커뮤니케이션합니다."
+    content : "Tableau를 이용해 효과적인 시각화를 구현해냅니다. <br> 완성된 시각화를 토대로 <br> 설득력 있게 표현하고, <br> 커뮤니케이션합니다."
 
 # Organization Section
 team:
