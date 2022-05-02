@@ -14,9 +14,9 @@ signature: assets/images/about/symbol1.png
 
 🏛️ 한국의 한양대학교 ERICA 캠퍼스 3학년에 재학 중이며, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **정보사회미디어학과 소프트웨어학**을 이수하고 있습니다.
 
-🐱 애교많고 도도한 고양이 2마리와 함께 살고 있습니다. <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MBTI는 외향적, 직관적, 감성적, 계획적인 ENFJ라고 합니다. <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 다양한 사람들과 함께하는걸 좋아하고, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;협업을 통해 목표를 성취하는 일에서 짜릿함을 느낍니다.
+🐱 고양이 2마리 집사입니다. 고양이 이름은 루비(Luvi), 제니(Jeni)에요. <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MBTI는 외향적, 직관적, 감성적, 계획적인 ENFJ라고 합니다. <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 다양한 사람들과 함께하는걸 좋아하며, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;협업을 통해 목표를 성취하는 일에서 짜릿함을 느낍니다.
 
-🔭 **데이터를 통해 현상을 이해하고, 분석하고, 이를 표현해내는 것**에 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 재미를 느낀 후로부터 줄곧 데이터에 관한 것이라면 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;무엇이든 공부하고 있습니다. <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+🔭 **데이터를 통해 현상을 이해하고, 분석하고, 이를 표현해내는 것**에 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 재미를 느낀 이후부터 줄곧 데이터에 관한 것이라면 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;무엇이든 공부하고 있습니다. <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 지금까지 **사회과학 현상 분석, 비즈니스 인사이트 도출, 데이터 시각화, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 데이터 저널리즘, 머신러닝** 등 다양한 분야에서 활발히 활동하며 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 경험을 쌓아왔습니다.
 <br><br>
 #### [GitHub](https://github.com/jayjinnie)

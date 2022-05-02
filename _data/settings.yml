@@ -115,8 +115,8 @@ education-title: History
 education:
 - {name: 한양대학교 ERICA <br> 정보사회미디어학과 입학, date: '2020 ~', organization: '언론정보대학'}
 - {name: 한양대학교 ERICA <br> 소프트웨어전공 다중전공, date: '2021 ~', organization: '소프트웨어융합대학 소프트웨어학부'}
-- {name: 데이터 사이언스 학회 DAYS 활동, date: '2020 ~', organization: '언론정보대학 정보사회미디어학과'}
 - {name: 알고리즘 학회 0&1 활동, date: '2020', organization: '소프트웨어융합대학'}
+- {name: 데이터 사이언스 학회 DAYS 활동, date: '2020 ~', organization: '언론정보대학 정보사회미디어학과'}
 - {name: 4차산업혁명 연합동아리 TAVE 활동, date: '2021', organization: 'TAVE-WAVE'}
 - {name: TAVE 심층 학술 연구단체 <br> TAVE Research 활동, date: '2021 ~', organization: 'TAVE-WAVE'}
 - {name: 정보사회미디어학과 학술제 CONNECTION 프로젝트 2팀 팀장, date: '2021', organization: '언론정보대학 정보사회미디어학과'}
@@ -241,6 +241,18 @@ portfolio-label:
 
 portfolio-items:
 
+  - image : "assets/images/portfolio/언정대체육대회_이벤트페이지.jpg"
+    url: "https://hanyangunjeong.wixsite.com/my-site"
+    project_name: "DAYS x 언론정보대학 학생회 to.U <br> '2022 언정대전 이벤트 웹페이지' 제작 도움"
+    portfolio-type:
+      - type: "2022"
+
+  - image : "assets/images/portfolio/안산시대학가_프로젝트.jpg"
+    url: "https://public.tableau.com/app/profile/jung.eunjin/viz/_16506974994390/sheet0"
+    project_name: "미디어콘텐츠기획론 팀 프로젝트 <br> '안산시 대학가 집값 현황 파악' <br> 태블로 데이터 시각화 프로젝트"
+    portfolio-type:
+      - type: "2022"
+
   - image : "assets/images/portfolio/데이즈홈페이지.jpg"
     url: "https://days-hanyang-erica.netlify.app/"
     project_name: "DAYS 학회장 활동 <br> DAYS 홈페이지 업데이트"
@@ -358,7 +370,7 @@ portfolio-items:
 
   - image : "assets/images/portfolio/웹스크래핑스터디.jpg"
     url: "https://youtu.be/h5iMyrcT7ho"
-    project_name: "DAYS + 학술제 커넥션 <br> 셀레니움 웹 스크래핑 툴 스터디 진행"
+    project_name: "DAYS x 정보사회미디어 학술제 커넥션 <br> 셀레니움 웹 스크래핑 툴 스터디 진행"
     portfolio-type:
       - type: "2021"
 
@@ -429,12 +441,12 @@ testimonial-items:
   - name: "Media & Social Informatics"
     image: "assets/images/testimonial/정보사회미디어.jpg"
     designation:
-    content: "저의 제1전공은 한양대학교 에리카캠퍼스 언론정보대학 소속의 <strong>정보사회미디어학과</strong>입니다. <br> 커뮤니케이션과 미디어 현상에 대한 이론적 및 경험적 지식을 토대로, 지능정보사회 인재의 필수 덕목인 데이터 사이언스를 무기로 삼아, 다양한 커뮤니케이션의 사회적 실천을 선도합니다."
+    content: "제1전공은 한양대학교 에리카캠퍼스 언론정보대학 소속의 <strong>정보사회미디어학과</strong>입니다. <br> 커뮤니케이션과 미디어 현상에 대한 이론적 및 경험적 지식을 토대로, <br> 지능정보사회 인재의 필수 덕목인 데이터 사이언스를 무기로 삼아, <br> 다양한 커뮤니케이션의 사회적 실천을 선도합니다."
     
   - name: "Software"
     image: "assets/images/testimonial/소프트웨어.jpg"
     designation:
-    content: "저의 제2전공은 한양대학교 에리카캠퍼스 소프트웨어융합대학 소프트웨어학부의 <strong>소프트웨어전공</strong>입니다. <br> 데이터 사이언스 트랙에서는 데이터를 과학적으로 분석하여 새로운 가치를 창출 할 수 있는 인재를 양성하며, 데이터 사이언스에 특화된 교육 프로그램을 제공합니다."
+    content: "제2전공은 한양대학교 에리카캠퍼스 소프트웨어융합대학 <br> 소프트웨어학부 소속의 <strong>소프트웨어전공</strong>입니다. <br> 데이터 사이언스 트랙에서는 데이터를 과학적으로 분석하여 <br> 새로운 가치를 창출 할 수 있는 인재를 양성하며, <br> 데이터 사이언스에 특화된 교육 프로그램을 제공합니다."
 
   - name: "DAYS"
     image: "assets/images/testimonial/DAYS_로고.png"
@@ -444,17 +456,17 @@ testimonial-items:
   - name: "TAVE & TAVE Research"
     image: "assets/images/testimonial/tave.jpg"
     designation:
-    content: "<strong>TAVE (Technology WAVE)</strong>는 2018년도 초에 창설된 국내 최초 4차 산업혁명 동아리입니다. <br> 모든 4차 산업혁명 영역을 아우르며, 다양한 스터디 및 프로젝트를 진행하고, 컨퍼런스를 개최하며 4차 산업혁명 기술의 물결을 선도하고 있습니다."
+    content: "<strong>TAVE (Technology WAVE)</strong>는 2018년도 초에 창설된 국내 최초 4차 산업혁명 동아리입니다. <br> 모든 4차 산업혁명 영역을 아우르며, 다양한 스터디 및 프로젝트를 진행하고, <br> 컨퍼런스를 개최하며 4차 산업혁명 기술의 물결을 선도하고 있습니다."
 
   - name: "Creativity & Interaction Lab"
     image: "assets/images/testimonial/창인연구소.jpg"
     designation:
-    content: "<strong>창의성과 인터랙션 연구소</strong>는 한양대학교 에리카캠퍼스 언론정보대학 소속의 연구소입니다. 인간과 미디어가 상호작용하는 현상에 대해 다양한 학제간 접근을 통해 연구합니다."
+    content: "<strong>창의성과 인터랙션 연구소</strong>는 한양대학교 에리카캠퍼스 언론정보대학 소속의 연구소입니다. <br> 인간과 미디어가 상호작용하는 현상에 대해 <br> 다양한 학제간 접근을 통해 연구합니다."
 
   - name: "0 & 1"
     image: "assets/images/testimonial/0과1.jpg"
     designation:
-    content: "<strong> 영과 일(0&1)</strong>은 한양대학교 에리카캠퍼스 소프트웨어융합대학 소속의 알고리즘 연구 학회입니다. 프로그래밍 스터디 운영과 함께 주기적인 코딩 캠프를 개최하며, 교내 프로그래밍 경시대회 및 전국 대학생 프로그래밍 동아리 연합 활동을 진행합니다."
+    content: "<strong> 영과 일(0&1)</strong>은 한양대학교 에리카캠퍼스 소프트웨어융합대학 소속의 알고리즘 연구 학회입니다. <br> 프로그래밍 스터디 운영과 함께 주기적인 코딩 캠프를 개최하며, <br> 교내 프로그래밍 경시대회 및 전국 대학생 프로그래밍 동아리 연합 활동을 진행합니다."
 
 
 #-------------------------------
@@ -482,7 +494,7 @@ client-slider-items:
   - logo: "https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white"
     url: "#"
 
-  - logo: "https://img.shields.io/badge/Pandas-94B4A4?style=for-the-badge&logo=pandas&logoColor=white"
+  - logo: "https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"
     url: "#"
 
   - logo: "https://img.shields.io/badge/Sklearn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"
