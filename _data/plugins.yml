@@ -4,7 +4,6 @@ css:
   - "/assets/plugins/themify-icons/themify-icons.css"
   - "/assets/plugins/slick/slick.css"
 
-
 ################ JS Plugins ######################
 js:
   - "/assets/plugins/jQuery/jquery.min.js"
