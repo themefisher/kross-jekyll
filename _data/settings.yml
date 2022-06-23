@@ -241,6 +241,19 @@ portfolio-label:
 
 portfolio-items:
 
+  - image : "assets/images/portfolio/캡스톤은상.jpg"
+    url: "https://blog.naver.com/eunvely227/222751032469"
+    project_name: "언론정보대학 캡스톤디자인 경진대회 <br> 은상 수상"
+    portfolio-type:
+      - type: "2022"
+
+  
+  - image : "assets/images/portfolio/포스트코로나_항공.jpg"
+    url: "https://public.tableau.com/app/profile/jung.eunjin/viz/_16554335425780/sheet0"
+    project_name: "'포스트코로나시대의 항공위기' <br> 태블로 데이터 시각화 프로젝트"
+    portfolio-type:
+      - type: "2022"
+
   - image : "assets/images/portfolio/언정대체육대회_이벤트페이지.jpg"
     url: "https://hanyangunjeong.wixsite.com/my-site"
     project_name: "DAYS x 언론정보대학 학생회 to.U <br> '2022 언정대전 이벤트 웹페이지' 제작 도움"
@@ -249,7 +262,7 @@ portfolio-items:
 
   - image : "assets/images/portfolio/안산시대학가_프로젝트.jpg"
     url: "https://public.tableau.com/app/profile/jung.eunjin/viz/_16506974994390/sheet0"
-    project_name: "미디어콘텐츠기획론 팀 프로젝트 <br> '안산시 대학가 집값 현황 파악' <br> 태블로 데이터 시각화 프로젝트"
+    project_name: "'안산시 대학가 집값 현황 파악' <br> 태블로 데이터 시각화 프로젝트"
     portfolio-type:
       - type: "2022"
 
