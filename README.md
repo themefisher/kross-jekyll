@@ -1,6 +1,6 @@
-# kross-jekyll-portfolio-template</h1>
+# kross-jekyll
 
-Kross Jekyll Creative Portfolio Template ported from <https://themefisher.com/products/kross/>
+Kross Jekyll Creative Portfolio Template ported from [Kross HTML Template](https://themefisher.com/products/kross/)
 
 ## Demo
 
@@ -41,17 +41,21 @@ I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/de
 
 ## Reporting Issues
 
-We use GitHub Issues as the official bug tracker for the **Kross Theme**. Please Search [existing issues](https://github.com/themefisher/kross-jekyll-portfolio-template/issues). It’s possible someone has already reported the same problem.
-If your problem or idea is not addressed yet, [open a new issue](https://github.com/themefisher/kross-jekyll-portfolio-template/issues/new)
+We use GitHub Issues as the official bug tracker for the **Kross Theme**. Please Search [existing issues](https://github.com/themefisher/kross-jekyll/issues). It’s possible someone has already reported the same problem.
+If your problem or idea is not addressed yet, [open a new issue](https://github.com/themefisher/kross-jekyll/issues/new)
 
 ## Technical Support or Questions
 
 If you have questions or need help integrating the product please [contact us](mailto:themefisher@gmail.com) instead of opening an issue.
 
-## Licensing
+<!-- licence -->
+## License
 
-- Copyright 2019 Themefisher (<https://themefisher.com/>)
-- Licensed under MIT (<https://github.com/themefisher/kross-jekyll-portfolio-template/blob/master/LICENSE.txt>)
+Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
+
+**Code License:** Released under the [MIT](https://github.com/themefisher/kross-jekyll/blob/main/LICENSE) license.
+
+**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
 
 ## Donate Us (Author)
 
